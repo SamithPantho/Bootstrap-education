@@ -1,0 +1,376 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+/*header start*/
+	.logo{
+		width: 180px;
+	}
+	.account{
+		width: 100%;
+	}
+	.account a{
+		text-align: center;
+	}
+	.dropdown a{
+		margin-bottom: 20px;
+	}
+	.mbcursor a:hover{
+		background-color: #f05c5c;
+	}
+/*header end*/
+/*bannar start*/
+	#bannar{
+		background-color: white
+	}
+	.bannar_text h2 {
+    	padding-top: 100px;
+    	padding-bottom: 140px;
+    	font-size: 31px;
+	}
+	.bannar_text p {
+    	font-size: 9px;
+	}
+/*bannar end*/
+/*bannar2  start*/
+	.blog{
+		margin-top: 30px;
+	}
+/*bannar2  end*/
+/*banner3 start*/
+	.kids{
+		margin-top: 30px;
+	}
+/*banner3 end*/
+/*feature start*/
+	.card{
+		margin-bottom: 30px;
+	}
+/*feature end*/
+/*event start*/
+	.custom_event{
+		text-align: center !important;
+	}
+	.eventinfo{
+	  margin-top: 5px !important;
+	}
+/*event end*/
+/*news start*/
+	.news{
+		margin-top: 30px;
+	}
+	.single_news{
+	  padding:30px 0; 
+	  text-align: center;
+	}
+	.newsdate{
+		margin: 0 auto;
+	}
+	.newsinfo{
+		margin-top: 20px;
+	}
+/*news end*/
+/*contact start*/
+	.contact{
+		text-align: center;
+	}
+	.s_c_hr{
+	  width: 100%;
+	}
+	.contact{
+	  padding:40px 0 !important;
+	  background-image: url(../pictures/bg6.png);
+	  background-size: cover;
+	  background-repeat: no-repeat;
+	  background-position: center;
+	}
+	.contact_row{
+		margin-top: 0px;
+	}
+	.custom_br{
+		margin-top: 0px;
+		margin-bottom: 50px;
+	}
+/*contact end*/
+/*footer start*/
+	.flinks li{
+	  padding: 0 5px !important;
+	  border:none !important;
+	}
+	/*footer end*/
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	/*header start*/
+	.logo{
+		width: 180px;
+	}
+	.account{
+		width: 100%;
+	}
+	.account a{
+		text-align: center;
+	}
+	.dropdown a{
+		margin-bottom: 20px;
+	}
+	.mbcursor a:hover{
+		background-color: #f05c5c;
+	}
+/*header end*/
+/*bannar start*/
+	#bannar{
+		background-color: white
+	}
+	.bannar_text h2{
+	    padding-top: 120px;
+    	padding-bottom: 170px;
+    	font-size: 33px;
+    }
+    .bannar_text p {
+    	font-size: 10px;
+	}
+	.bannar_text i {
+    	font-size: 20px;
+	}
+/*bannar end*/
+/*bannar2  start*/
+	.blog{
+		margin-top: 30px;
+	}
+/*bannar2  end*/
+/*banner3 start*/
+	.kids{
+		margin-top: 30px;
+	}
+/*banner3 end*/
+/*feature start*/
+	.card{
+		margin-bottom: 30px;
+	}
+/*feature end*/
+/*event start*/
+	.custom_event{
+		text-align: center !important;
+	}
+	.eventinfo{
+	  margin-top: 10px !important;
+	}
+/*event end*/
+/*news start*/
+	.news{
+		margin-top: 30px;
+	}
+	.single_news{
+	  padding:30px 0; 
+	  text-align: center !important;
+	}
+	.newsdate{
+		margin: 0 auto;
+	}
+	.newsinfo{
+		margin-top: 20px;
+	}
+/*news end*/
+/*contact start*/
+	.contact{
+		text-align: center;
+	}
+	.s_c_hr{
+	  width: 100%;
+	}
+	.contact{
+	  padding:40px 0 !important;
+	  background-image: url(../pictures/bg6.png);
+	  background-size: cover;
+	  background-repeat: no-repeat;
+	  background-position: center;
+	}
+	.contact_row{
+		margin-top: 50px;
+	}
+	.custom_br{
+		margin-top: 0px;
+		margin-bottom: 50px;
+	}
+/*contact end*/
+/*footer start*/
+	.flinks li{
+	  padding: 0 4px;
+	  border-right: 3px solid #ffffff;
+	}
+	.flinks li:last-child{
+	  border:none !important;
+	}
+	/*footer end*/
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	/*header start*/
+	.logo{
+		width: 180px;
+	}
+	.account{
+		width: 100%;
+	}
+	.account a{
+		text-align: center;
+	}
+	.dropdown a{
+		margin-bottom: 20px;
+	}
+	.mbcursor a:hover{
+		background-color: #f05c5c;
+	}
+/*header end*/
+/*bannar start*/
+	#bannar{
+		background-image: url(../pictures/bannar1.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	.bannar_text h2{
+	    padding-top: 165px;
+    	padding-bottom: 170px;	
+    	font-size: 35px;
+    }
+/*bannar end*/
+/*feature start*/
+	.card{
+		margin-bottom: 30px;
+	}
+/*feature end*/
+/*event start*/
+	.custom_event{
+		text-align: center !important;
+	}
+
+	.eventinfo{
+	  margin-top: 10px !important;
+	}
+/*event end*/
+/*news start*/
+	.news{
+		margin-top: 30px;
+	}
+	.single_news{
+	  overflow: hidden;
+	  padding:20px 0; 
+	}
+	.newsdate{
+	  width: 40%;
+	}
+	.newsinfo{
+	  width: 50%;
+	}
+/*news end*/
+/*contact start*/
+	.custom_br{
+		margin-bottom: 50px;
+	}
+/*contact end*/
+/*footer start*/
+	.flinks li{
+	  padding: 0 15px;
+	  border-right: 3px solid #ffffff;
+	}
+	.flinks li:last-child{
+	  border:none !important;
+	}
+	/*footer end*/
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1299.98px) { 
+	/*bannar start*/
+	#bannar{
+		background-image: url(../pictures/bannar1.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	.bannar_text h2{
+	    padding-top: 190px;
+    	padding-bottom: 230px;
+	}
+	/*bannar end*/
+	/*event start*/
+
+	.eventinfo{
+	  margin-top: 10px !important;
+	}
+	/*event send*/
+/*news start*/
+	.single_news{
+	  overflow: hidden;
+	  padding:20px 0; 
+	}
+	.newsdate{
+	  width: 40%;
+	}
+	.newsinfo{
+	  width: 50%;
+	}
+/*news end*/
+/*footer start*/
+	.flinks li{
+	  padding: 0 15px;
+	  border-right: 3px solid #ffffff;
+	}
+	.flinks li:last-child{
+	  border:none !important;
+	}
+	.copyright{
+	  margin-top: 10px !important;
+	}
+	/*footer end*/
+	/*topclick start*/
+	.topclick{
+	  left: 1150px;
+	}
+	/*topclick end*/
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1300px) { 
+	/*bannar start*/
+	#bannar{
+		background-image: url(../pictures/bannar1.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+	.bannar_text h2{
+	    padding-top: 250px;
+    	padding-bottom: 280px;	
+    }
+	/*bannar end*/
+	/*event start*/
+
+	.eventinfo{
+	  margin-top: 20px !important;
+	}
+	/*event send*/
+	/*news start*/
+	.single_news{
+	  overflow: hidden;
+	  padding:20px 0; 
+	}
+	.newsdate{
+	  width: 40%;
+	}
+	.newsinfo{
+	  width: 50%;
+	}
+	/*news end*/
+	/*footer start*/
+	.flinks li{
+	  padding: 0 15px;
+	  border-right: 3px solid #ffffff;
+	}
+	.flinks li:last-child{
+	  border:none !important;
+	}
+	/*footer end*/
+}

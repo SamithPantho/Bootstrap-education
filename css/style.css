@@ -1,0 +1,527 @@
+body{
+  background-color: #f1f1ef;
+  background-image: url(../pictures/bg1.png);
+}
+/*header start*/
+header{
+  background-color: #ffd338;
+}
+
+.menubar ul li a{
+  color: #ffffff !important;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 0 15px;
+  margin-right: 10px; 
+} 
+.menubar ul li a:hover,.flinks li a:hover{
+    border: 1px solid #f05c5c;
+    border-radius: 21px;
+    text-align: center;
+    background-color: #f05c5c;
+    text-decoration: none;
+}
+.dropdown-menu{
+  background-color: transparent;
+  border: none;
+}
+.dropdown a{
+  color: white;
+}
+.dropdown a:hover,.account a :hover{
+    border: 1px solid #f05c5c;
+    border-radius: 21px;
+    text-align: center;
+    text-decoration: none;
+}
+.account a {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
+
+
+/*header end*/
+/*banner1 start*/
+.bannar_text h2{
+  font-weight: 700;
+  font-size: 48px;
+  color: #1ec0ff;
+}
+.bannar_text p{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #bbbbbb;
+    margin-bottom: 1px;
+}
+.bannar_text i{
+  font-size: 28px;
+}
+/*banner1 end*/
+/*banner2 start*/
+.bannar2{
+  padding: 100px 0;
+}
+.custom_banner2{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.custom_banner2 h1{
+  color: #333333 !important;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.blog h1{
+  font-family: 'Dosis', sans-serif;
+  font-size:24px;
+  color:#333333;
+  font-weight:700;
+}
+.blog p{
+  font-family: 'Lato', sans-serif;
+  font-size:14px;
+  color: #333333;
+}
+/*banner2 end*/
+/*banner3 start*/
+.banner3{
+  padding: 100px 0;
+  background-image: url(../pictures/bg2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.kids{
+  text-align: center;
+}
+.kids h1{
+  font-family: 'Dosis', sans-serif;
+  font-size:24px;
+  color:#ffffff;
+  font-weight:700;  
+}
+/*banner3 end*/
+/*feature start*/
+.feature{
+  padding: 70px 0;
+}
+.card{
+  border-radius: 22px;
+  margin-bottom: 50px;
+}
+.card-header:first-child {
+    border-radius: 22px 22px 0 0;
+}
+.card-header p{
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  color: #ffffff;
+}
+.card-title{
+  font-family: 'Dosis', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #333333;
+}
+.blue{
+  color: #1ec0ff !important;
+}
+.card-text{
+   font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  color: #333333;
+  height: 65px;
+}
+.card-footer{
+  overflow: hidden;
+  padding: 10px 5px;
+}
+.card1{
+  background-color:#1ec0ff; 
+}
+.card2{
+  background-color:#56d47e; 
+}
+.card3{
+  background-color:#f05c5c; 
+}
+.card4{
+  background-color:#ffd338; 
+}
+.profile {
+position: relative;
+top: -20px;
+left: 80%;
+width: 45px;
+height: 45px;
+margin: 0;
+border-radius: 50%;
+}
+.profile img {
+display: block;
+width: 100%;
+height: 100%;
+border-radius: 50%;
+}
+.custom_btn button{
+  width: 100%;
+  height: 30px;
+  border: none;
+  background-color: #56d47e;
+  border-radius: 20px;
+  color: white;
+  transition: .5s;
+  left: 50% !important;
+}
+.custom_btn button i{
+  color: white;
+}
+.custom_btn button:hover,.custom_btn button i:hover{
+color: #f05c5c;
+}
+
+/*feature end*/
+/*moment start*/
+.moment{
+  padding: 80px 0;
+  background-image: url(../pictures/bg3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+.momentbutton{
+  margin-top: 50px;
+}
+/*moment end*/
+/*twitter start*/
+.twitter{
+  padding-top: 100px;
+  text-align: center;
+}
+.tlogo i{
+  color: #1ec0ff;
+  font-size: 70px;
+}
+.tlink{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.tlink a{
+  color: #1ec0ff;
+  font-family: 'Lato', sans-serif;
+  font-size:14px;
+  text-decoration: none;
+}
+.tquate{
+  margin-bottom: 10px;
+}
+.tquate p{
+  font-family: 'Lato', sans-serif;
+  font-size:14px;
+  font-weight: 300;
+}
+.tlinks{
+  color: #1ec0ff;
+}
+/*twitter end*/
+/*lecturer start*/
+.lecturer{
+  padding: 100px 0;
+}
+.singlelecturer{
+  margin-bottom: 20px;
+}
+.llogo img{
+  height: 290px;
+  width: 240px;
+}
+.linfo{
+  padding: 20px 0;
+}
+.linfo h1{
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+.linfo h6{
+  font-family: 'Lato', sans-serif;
+  font-size:14px;
+  font-weight: 300;
+}
+.linfo p{
+  font-family: 'Lato', sans-serif;
+  font-size:14px
+}
+.linfo a{
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #333333;
+  text-decoration: underline;
+}
+.fb,.twiter,.gplas,.tmblr{
+  font-size: 18px;
+}
+.fb{
+  color:#4366ff;  
+}
+.twiter{
+  color: #1ec0ff;
+}
+.gplas{
+  color:#f07a7a; 
+}
+.tmblr{
+  color: #0b3861;
+}
+/*lecturer end*/
+/*service start*/
+.service{
+  padding: 100px 0;
+  background-image: url(../pictures/bg4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+.custom_banner3 h1{
+  color: #56d47e !important;
+}
+.cus_ser img{
+  margin-bottom: 40px;
+}
+.single_service{
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+.single_service h1{
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  color: #ffffff;
+}
+.single_service h6{
+  margin-top: 10px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+/*service end*/
+/*event start*/
+.event{
+  padding: 100px 0;
+}
+.custom_event{
+  text-align: left !important;
+  margin-bottom: 50px;
+}
+.custom_event h1{
+  color: #333333 !important;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.single_event{
+  overflow: hidden;
+  padding: 20px 0;
+}
+.eventdate{
+  width: 20%;
+}
+.eventinfo{
+  margin-left: 20px;
+  width: 70%;
+}
+.eventinfo h1{
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #333333;
+}
+.eventinfo span{
+  font-family: 'Lato', sans-serif;
+  font-size:14px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.eventinfo p{
+  font-family: 'Lato', sans-serif;
+  font-size:14px;
+}
+.eventinfo a{
+  font-family: 'Dosis', sans-serif;
+  font-size:16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #fb9130;
+}
+.time{
+
+  padding: 0 5px;
+  color: #1ec0ff;
+}
+/*event end*/
+/*news start*/
+.newsinfo h1{
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #333333;
+  margin-left: 20px;
+}
+.newsinfo hr{
+  border: none;
+  border-top: 7px dotted;
+  height: 3px;
+  width: 95%;
+
+}
+.newsinfo span{
+  font-family: 'Lato', sans-serif;
+  font-size:14px;
+  margin-left: 20px;
+}
+.newsinfo p{
+  font-family: 'Lato', sans-serif;
+  font-size:14px;
+  margin-left: 20px;
+}
+/*news end*/
+/*contact start*/
+.contact{
+  padding-top:200px;
+  padding-bottom: 100px;
+  background-image: url(../pictures/bg5.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.contact_row{
+  margin-top: 150px;
+}
+.lbi{
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size:14px;
+}
+.s_contract img{
+  margin-bottom: 20px;
+}
+.s_contract p{
+  font-family: 'Lato', sans-serif;
+  font-size:14px;
+  color: #333333;
+}
+.s_contract p a{
+  text-decoration: none;
+  color: #333333;
+}
+.blue{
+  margin-right: 2px;
+}
+.s_c_h1{
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.s_c_hr{
+  border: none;
+  border-top: 5px dotted;
+  height: 3px;
+  width: 55%;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.orange{
+  color:  #ffc852;
+}
+.green{
+  color: #56d47e;
+}
+.red{
+  color: #f05c5c;
+}
+.space{
+  margin-right: 10px;
+  color: #dddddd;
+}
+.s_img,.c_space{
+  margin-top: 30px;
+}
+.inputwithicon input[type=text]{
+  padding-left: 25px;
+}
+.inputwithicon{
+  position: relative;
+}
+.inputwithicon i{
+  position: absolute;
+  left: 0;
+  top: 13px;
+  padding: 0px 10px;
+  color: #1ec0ff;
+  font-size: 16px;
+}
+.custom_btn{
+  border: 1px solid #ced4da; 
+}
+.iconbtn{
+  color: #cccccc !important;
+  padding: 0px 5px !important;
+}
+.iconbtn:hover,.custom_btn:hover{
+   color: #1ec0ff !important;
+}
+.clink{
+  margin-top: 20px;
+}
+.clinks li i{
+  color: #cccccc;
+  margin-right: 5px;
+}
+.clinks li i:hover{
+  color: #1ec0ff;
+  cursor: pointer;
+}
+/*contact end*/
+
+/*footer start*/
+footer{
+  padding: 20px 0;
+  background-color:#ffd338; 
+  overflow: hidden;
+}
+.flinks{
+  margin-top: 10px;
+}
+.flinks li a{
+  padding: 5px 5px;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+}
+.copyright{
+  margin-top: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+/*footer end*/
